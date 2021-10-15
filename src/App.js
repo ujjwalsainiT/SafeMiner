@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 import FAQ from './Components/FAQ/FAQ';
 import AboutUs from './Components/AboutUs/AboutUs';
 import InvestmentPackages from './Components/InvestmentPackages/InvestmentPackages';
+import Referrals from './Components/Referrals/Referrals';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/faq" component={FAQ}/>
       <Route exact path="/about-us" component={AboutUs}/>
       <Route exact path="/investment-packages" component={InvestmentPackages}/>
+      <Route exact path="/referrals" component={Referrals}/>
     </Switch>
     </>
   );
