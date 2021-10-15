@@ -8,7 +8,6 @@ import "./InvestmentPackages.css";
 //used imges
 import a from "../images/a.png";
 
-
 //tab pannel
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
