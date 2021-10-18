@@ -18,6 +18,7 @@ import SixMonthsPlans from '../Home/SixMonthsPlans.jsx';
 import TwelveMonthPlans from '../Home/TwelveMonthPlans.jsx';
 
 function InvestmentPackages() {
+
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event, newValue) => {
@@ -27,6 +28,7 @@ function InvestmentPackages() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
+
     return (
         <>
             <div className="pages_back_color">
@@ -37,7 +39,6 @@ function InvestmentPackages() {
                             <div className="para_home mt-2">With a wide choice among investment packages, we choose an individual approach
                                 to each Stake Club user. Each package contains: cost,
                                 referral bonus and package validity period. You will definitely find something for yourself.</div>
-
                         </Grid>
                         <Grid item md={6} className="p-3">
                             <img src={a} alt="" className="about_image" />
@@ -68,7 +69,6 @@ function InvestmentPackages() {
                             <TwelveMonthPlans />
                         </TabPanel>
                     </div>
-
 
                     <div className="aboutUS_staking_backcolor pt-2 pb-4 mb-2">
                         <div className="home_Main_heading text-center mt-2 mb-2">start Making Profit Right Now</div>
@@ -115,4 +115,5 @@ function a11yProps(index) {
         "aria-controls": `simple-tabpanel-${index}`,
     };
 }
+
 export default HOC(InvestmentPackages);

@@ -9,6 +9,8 @@ import { Button } from "@material-ui/core"
 import profit from "../images/profit.png";
 
 function SixMonthsPlans(props) {
+
+    //local array
     const packagedata = [
         { packagename: "Basic" },
         { packagename: "Basic" },
@@ -18,6 +20,7 @@ function SixMonthsPlans(props) {
         { packagename: "Basic" },
         { packagename: "Basic" },
     ]
+    
     return (
         <>
             <Grid className="Component_main_grid">

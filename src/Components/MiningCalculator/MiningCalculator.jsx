@@ -5,6 +5,8 @@ import { Grid, Card } from '@material-ui/core';
 import "./MiningCalculator.css";
 
 function MiningCalculator(props) {
+
+    //local array
     const packagedata = [
         { detail: "Day" },
         { detail: "Month" },
@@ -12,6 +14,7 @@ function MiningCalculator(props) {
         { detail: "Year 2" },
 
     ]
+
     return (
         <>
             <Grid className="Component_main_grid">

@@ -13,9 +13,11 @@ import money from "../images/money.png";
 import profit from "../images/profit.png";
 
 function AboutUs() {
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
+    
     return (
         <>
             <div className="pages_back_color">
