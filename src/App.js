@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Switch, Route} from "react-router-dom"
+import {Switch, Route, Redirect} from "react-router-dom"
 import Register from './Components/Register/Register';
 import Login from './Components/Register/Login';
 import VerifyOtp from './Components/Register/VerifyOtp';
@@ -25,6 +25,7 @@ function App() {
       <Route exact path="/about-us" component={AboutUs}/>
       <Route exact path="/investment-packages" component={InvestmentPackages}/>
       <Route exact path="/referrals" component={Referrals}/>
+      <Redirect to="/"/>
     </Switch>
     </>
   );
