@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
+
+//ffor routing paths
 import {Switch, Route, Redirect} from "react-router-dom"
+
+//conponents
 import Register from './Components/Register/Register';
 import Login from './Components/Register/Login';
 import VerifyOtp from './Components/Register/VerifyOtp';
