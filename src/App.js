@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-//ffor routing paths
+//for routing paths
 import {Switch, Route, Redirect} from "react-router-dom"
 
 //conponents
