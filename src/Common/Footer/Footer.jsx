@@ -16,12 +16,12 @@ function Footer(props) {
                         <div><img src={hash} alt="" className="footer_image" /></div>
                         <div className="Footer_heading_Links mt-1">@ {new Date().getFullYear()} HashShiny.io . All Rights Reserved</div>
                         <div className="d-flex mt-2">
-                            <span className="Footer_heading_Links"><i class="fa fa-facebook"></i></span>
-                            <span className="Footer_heading_Links ml-5"><i class="fa fa-twitter"></i></span>
-                            <span className="Footer_heading_Links ml-5"><i class="fa fa-linkedin"></i></span>
+                            <span className="Footer_heading_Links"><i className="fa fa-facebook"></i></span>
+                            <span className="Footer_heading_Links ml-5"><i className="fa fa-twitter"></i></span>
+                            <span className="Footer_heading_Links ml-5"><i className="fa fa-linkedin"></i></span>
                         </div>
                         <div className="mt-2">
-                            <a href="//www.dmca.com/Protection/Status.aspx?id=004278c7-d1c3-4092-9630-ddb36be68862" title="DMCA.com Protection Status" class="dmca-badge">
+                            <a href="//www.dmca.com/Protection/Status.aspx?id=004278c7-d1c3-4092-9630-ddb36be68862" title="DMCA.com Protection Status" className="dmca-badge">
                                 <img src="//images.dmca.com/Badges/dmca-badge-w150-5x1-01.png?ID=004278c7-d1c3-4092-9630-ddb36be68862" alt="DMCA.com Protection Status" /></a>
                             <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
                         </div>
@@ -41,10 +41,10 @@ function Footer(props) {
                     </Grid>
                     <Grid item md={2} className="p-3">
                         <div className="FotterHead_links">CONTACT</div>
-                        <div><span className="Footer_heading_Links mt-2"><i class="fa fa-building"></i></span><span className="ml-2 Footer_heading_Links">Hash Bitchain Limited<br />Co HK</span></div>
-                        <div><span className="Footer_heading_Links mt-1"><i class="fa fa-globe"></i></span><span className="ml-2 Footer_heading_Links">About Us</span></div>
-                        <div><span className="Footer_heading_Links mt-1"><i class="fa fa-instagram"></i></span><span className="ml-2 Footer_heading_Links">Contact Us</span></div>
-                        <div><span className="Footer_heading_Links mt-1"><i class="fa fa-facebook"></i></span><span className="ml-2 Footer_heading_Links">Advertise with us</span></div>
+                        <div><span className="Footer_heading_Links mt-2"><i className="fa fa-building"></i></span><span className="ml-2 Footer_heading_Links">Hash Bitchain Limited<br />Co HK</span></div>
+                        <div><span className="Footer_heading_Links mt-1"><i className="fa fa-globe"></i></span><span className="ml-2 Footer_heading_Links">About Us</span></div>
+                        <div><span className="Footer_heading_Links mt-1"><i className="fa fa-instagram"></i></span><span className="ml-2 Footer_heading_Links">Contact Us</span></div>
+                        <div><span className="Footer_heading_Links mt-1"><i className="fa fa-facebook"></i></span><span className="ml-2 Footer_heading_Links">Advertise with us</span></div>
                     </Grid>
                     <Grid item md={2} className="p-3">
                         <div className="FotterHead_links">LANGUAGES</div>

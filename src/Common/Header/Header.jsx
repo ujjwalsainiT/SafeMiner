@@ -49,13 +49,13 @@ const Header = (props) => {
                             className="logout_Pointer_cursor mr-3 text-right mt-2"
                             onClick={!Sidebar ? setLoadingnewside : Closesidebar}
                         >
-                            <i class="fa fa-bars"></i>
+                            <i className="fa fa-bars"></i>
                         </span>
 
                         <div id="mySidenav" className="sidenav">
                             <div className="cross_icon_style">
                                 <i
-                                    class="fa fa-times cursor"
+                                    className="fa fa-times cursor"
                                     onClick={() => {
                                         document.getElementById("mySidenav").style.width =
                                             "0px";
