@@ -84,14 +84,20 @@ responsive to mobile view on various screen width as below */
   overflow: scroll;
 }
 
-.top_heading{
+.top_heading {
   font-size: 35px;
   font-weight: 600;
 }
 
-.pages_back_color{
+.pages_back_color {
   background-color: #eafcfc;
 }
+
+/* border color for blank textfeild*/
+.invalid {
+  border: 1px solid #d9534f;
+}
+
 @media screen and (max-height: 450px) {
   .leftside {
     padding-top: 15px;

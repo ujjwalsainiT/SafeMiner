@@ -54,10 +54,10 @@ function Home(props) {
                                     <Grid className="Component_main_grid">
                                         <Grid item md={8} className="p-3"> <input
                                             type="text"
-                                            class="form-control"
+                                            className="form-control"
                                             placeholder="Enter E-mail" /></Grid>
                                         <Grid item md={4} className="p-3">
-                                            <Button className="home_page_button">Start Earning</Button>
+                                            <Button className="home_page_button" onClick={()=>props.history.push("/register")}>Start Earning</Button>
                                         </Grid>
                                     </Grid>
                                 </Card>

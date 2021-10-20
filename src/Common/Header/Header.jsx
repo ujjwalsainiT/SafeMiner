@@ -40,7 +40,7 @@ const Header = (props) => {
                         <span className="header_link_color" onClick={() => props.history.push("/home")}>Home</span>
                         <span className="header_link_color" onClick={() => props.history.push("/investment-packages")}>Packages</span>
                         <span className="header_link_color" onClick={() => props.history.push("/about-us")}>About</span>
-                        <span className="header_link_color" onClick={() => props.history.push("/referrals")}>Referal</span>
+                        <span className="header_link_color" onClick={() => props.history.push("/referrals")}>Referral</span>
                         <span className="header_link_color" onClick={() => props.history.push("/faq")}>Review & FAQ</span>
                         <span className="header_link_color" onClick={() => props.history.push("/login")}>Login</span>
                     </div>
@@ -73,7 +73,7 @@ const Header = (props) => {
                                 About
                             </span>
                             <span className="logout_Pointer_cursor" onClick={() => props.history.push("/referrals")}>
-                                Referal
+                                Referral
                             </span>
                             <span className="logout_Pointer_cursor" onClick={() => props.history.push("/faq")}>
                                 Review & FAQ

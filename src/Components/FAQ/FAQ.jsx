@@ -70,7 +70,7 @@ function FAQ() {
                                                     ]);
                                                 }}
                                             >
-                                                <i class="fa fa-plus-square"></i>
+                                                <i className="fa fa-plus-square"></i>
                                             </span>
                                         ) : (
                                             <span

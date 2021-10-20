@@ -101,7 +101,7 @@ function Referrals() {
                             <Grid item md={2} className="p-2"></Grid>
                             <Grid item md={6} className="p-2"> <input
                                 type="text"
-                                class="form-control form-control-lg"
+                                className="form-control form-control-lg"
                                 placeholder="Enter E-mail" /></Grid>
                             <Grid item md={2} className="p-2">
                                 <Button className="about_button_earning">Start Earning</Button>

@@ -15,10 +15,16 @@ import InvestmentPackages from './Components/InvestmentPackages/InvestmentPackag
 import Referrals from './Components/Referrals/Referrals';
 import ScrollToTop from "react-scroll-to-top";
 
+//for notiication
+import ReactNotification from 'react-notifications-component';
+import 'react-notifications-component/dist/theme.css';
+
+
 function App() {
   return (
     <>
-      <ScrollToTop smooth color="#6f00ff" />
+    <ReactNotification />
+    <ScrollToTop smooth color="#6f00ff" />
     <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/home" component={Home}/>

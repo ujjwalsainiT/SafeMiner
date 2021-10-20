@@ -26,11 +26,11 @@ function Reviews() {
                 className="brand-wrap owl-carousel owl-theme"
             >
                 {dataArr.map((item, index) => (
-                    <div class="item">
+                    <div className="item">
                         <Card className="Card_shadow m-2">
-                            <div className="p-3"><i class="fa fa-star"></i></div>
+                            <div className="p-3"><i className="fa fa-star"></i></div>
                             <div className="p-3 Review_heding">{item.name}</div>
-                            <div className="p-3 Certification_para_formatting">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a
+                            <div className="p-3 Certification_para_formatting mb-3">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a
                                 typeface without relying on meaningful content.</div>
                         </Card>
                     </div>
