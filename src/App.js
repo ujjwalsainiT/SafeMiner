@@ -26,7 +26,7 @@ function App() {
     <ReactNotification />
     <ScrollToTop smooth color="#6f00ff" />
     <Switch>
-      <Route exact path="/" component={Home}/>
+      <Route exact path="/" component={Register}/>
       <Route exact path="/home" component={Home}/>
       <Route exact path="/register" component={Register}/>
       <Route exact path="/login" component={Login}/>
